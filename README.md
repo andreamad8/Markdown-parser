@@ -7,7 +7,7 @@ Till now we have just considered some basic constructors, such as:
 
 The parser is implemented using the following BNF grammar:
 ```
-S -> HP | PS | e
+S -> HS | PS | e
 H -> FT '\n'
 F -> #F | e
 T -> [a-zA-Z]*
