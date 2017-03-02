@@ -5,6 +5,7 @@ Till now we have just considered some basic constructors, such as:
 - `** ciao **` for the bolt
 - `* ciao *` for the italic
 
+
 The parser is implemented using the following BNF grammar:
 ```
 S -> HS | PS | e
